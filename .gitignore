@@ -1,0 +1,44 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+temp/
+tmp/
+
+# Dataset
+data/
+
+# Local caches
+.cache/
+.ipynb_checkpoints/
+
+# Large unused model
+models/random_forest.joblib
+
+# Alternative model artifacts not required by app
+models/cnn_bilstm_char_only.keras
+models/tokenizer_char_only.pkl
